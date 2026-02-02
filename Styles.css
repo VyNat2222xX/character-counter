@@ -138,10 +138,6 @@ label {
 	justify-content: space-evenly;
 }
 
-/* 
-
-mon test de dialog
-
 dialog {
 	background-color: white;
 	border: 1px solid grey;
@@ -150,6 +146,7 @@ dialog {
 	display: flex;
 	gap: 20px;
 	align-items: center;
+	position: fixed;
 }
 
 dialog h3 {
@@ -159,4 +156,3 @@ dialog h3 {
 dialog a {
 	color: blue;
 }
-*/
