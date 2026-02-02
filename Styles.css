@@ -1,0 +1,162 @@
+body {
+	background-color: #12131a;
+	user-select: none;
+}
+
+header {
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+	justify-self: center;
+}
+
+.logo {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+h1 {
+	color: #f2f2f7;
+	font-family: "DM Sans";
+	font-weight: 700;
+	font-size: 64px;
+	width: 45%;
+	text-align: center;
+}
+
+h3,
+p {
+	color: #f2f2f7;
+	font-family: "DM Sans";
+}
+
+h2 {
+	font-size: 32px;
+	font-family: "DM Sans";
+}
+
+.hero {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	border: none;
+}
+
+.setting {
+	background-color: #2a2b37;
+	color: #e4e4ef;
+	border-radius: 8px;
+	padding: 12px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+}
+
+section {
+	width: 75%;
+	justify-self: center;
+}
+
+textarea {
+	resize: none;
+	color: #e4e4ef;
+	border: 1px solid #2a2b37;
+	height: 200px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.textarea {
+	display: flex;
+	flex-direction: column;
+}
+
+.checkbox {
+	background-color: transparent;
+	accent-color: #c27cf8;
+}
+
+label {
+	display: flex;
+	gap: 10px;
+}
+
+.checkboxlist {
+	display: flex;
+	gap: 24px;
+}
+
+.text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.statslist {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+.stat1 {
+	background-color: #d3a0fa;
+}
+
+.stat2 {
+	background-color: #ff9f00;
+}
+
+.stat3 {
+	background-color: #fe8159;
+}
+
+.stat1 p,
+.stat2 p,
+.stat3 p {
+	color: #000000;
+}
+
+.stat1,
+.stat2,
+.stat3 {
+	display: flex;
+	border-radius: 12px;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.stat1 div,
+.stat2 div,
+.stat3 div {
+	padding: 10px;
+	justify-content: space-evenly;
+}
+
+/* 
+
+mon test de dialog
+
+dialog {
+	background-color: white;
+	border: 1px solid grey;
+	width: 30%;
+	padding: 25px;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+dialog h3 {
+	color: gray;
+}
+
+dialog a {
+	color: blue;
+}
+*/
