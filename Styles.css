@@ -137,22 +137,3 @@ label {
 	padding: 10px;
 	justify-content: space-evenly;
 }
-
-dialog {
-	background-color: white;
-	border: 1px solid grey;
-	width: 30%;
-	padding: 25px;
-	display: flex;
-	gap: 20px;
-	align-items: center;
-	position: fixed;
-}
-
-dialog h3 {
-	color: gray;
-}
-
-dialog a {
-	color: blue;
-}
