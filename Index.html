@@ -64,6 +64,8 @@
 			</section>
 			<section class="textarea">
 				<textarea
+					maxlength="10000"
+					id="textarea"
 					class="setting"
 					placeholder="Start typing here… (or paste your text)"
 				></textarea>
@@ -85,7 +87,7 @@
 				<div class="statslist">
 					<div class="stat1">
 						<div>
-							<h2>00</h2>
+							<h2 id="totalcharacter">00</h2>
 							<p>Total Characters</p>
 						</div>
 						<svg
@@ -121,7 +123,7 @@
 					</div>
 					<div class="stat2">
 						<div>
-							<h2>00</h2>
+							<h2 id="totalword">00</h2>
 							<p>Word Count</p>
 						</div>
 						<svg
@@ -154,7 +156,7 @@
 					</div>
 					<div class="stat3">
 						<div>
-							<h2>00</h2>
+							<h2 id="totalsentence">00</h2>
 							<p>Sentence Count</p>
 						</div>
 						<svg
